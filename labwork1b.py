@@ -1,6 +1,6 @@
 Students=[] # List of tuples cuz we dont need to change anything
 Courses=[]  # List of tuples _
-Marks={}  # Dictionary
+Marks={}  # Dict 
 
 
 def input_student():
