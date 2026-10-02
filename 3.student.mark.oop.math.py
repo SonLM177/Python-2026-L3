@@ -7,7 +7,7 @@ class Student:
         self.sid = sid
         self.name = name
         self.dob = dob
-        self.marks = {}  # course id -> mark
+        self.marks = {}  #course id -> mark
 
     def gpa(self, courses):
         """Weighted average: sum(mark * credits) / sum(credits)."""
